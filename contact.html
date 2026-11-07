@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | {name}</title>
+  <link rel="icon" href="images/logo-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <header id="site-header"></header>
+
+  <main>
+    <section class="page-hero">
+      <h1>Contact Me</h1>
+      <p>Don't be shy. Reach out anytime!</p>
+    </section>
+
+    <section class="section dark">
+      <div class="wrap contact-grid">
+        <div class="reveal">
+          <h2 class="title">Let's <span>Connect</span></h2>
+          <p>Have feedback, a project, or just want to say hi? You can reach me here:</p>
+          <div class="contact-list" id="contact-list"></div>
+        </div>
+        <form id="contact-form" class="reveal">
+          <input name="name" placeholder="Your Name" required>
+          <input name="email" type="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button class="btn btn-gold" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

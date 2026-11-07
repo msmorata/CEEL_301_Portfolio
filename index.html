@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | {name}</title>
+  <meta name="description" content="Mark Clear Morata: web portfolio of graphic design outputs, skills and projects.">
+  <link rel="icon" href="images/logo-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hi">✦ Hello, I'm</p>
+        <h1><span data-profile="firstName"></span><span class="last" data-profile="lastName"></span></h1>
+        <p class="role" data-profile="role"></p>
+        <p class="motto"><i class="fa-solid fa-star"></i><span data-profile="motto"></span></p>
+        <p class="tagline" data-profile="tagline"></p>
+        <div class="btn-row">
+          <a href="portfolio.html" class="btn btn-gold"><i class="fa-solid fa-images"></i> View My Work</a>
+          <a href="contact.html" class="btn btn-outline">Contact Me</a>
+          <a data-github class="btn btn-outline" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+      </div>
+      <div class="photo-wrap">
+        <div class="hero-photo" data-profile-photo></div>
+        <img class="hero-logo" data-profile-logo alt="Starry Sky logo">
+      </div>
+    </section>
+
+    <!-- STATS (numbers count up) -->
+    <section class="stats">
+      <div class="wrap stats-grid" id="stats"></div>
+    </section>
+
+    <!-- FEATURED PROMO VIDEO (hover to play) -->
+    <section class="section sky promo-feature">
+      <div class="wrap promo-grid">
+        <div class="promo-text reveal">
+          <h2 class="title">Watch My <span>Promo</span></h2>
+          <a href="about.html" class="btn btn-outline">See All Promo Ads <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="promo-player reveal" id="promo-feature">
+          <video id="promo-video" loop playsinline preload="metadata"></video>
+          <div class="promo-overlay"><span class="play big"><i class="fa-solid fa-play"></i></span><span class="promo-label">HOVER TO PLAY</span></div>
+          <button class="promo-sound" id="promo-sound" aria-label="Mute"><i class="fa-solid fa-volume-high"></i></button>
+          <div class="promo-progress"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED WORK -->
+    <section class="section dark">
+      <div class="wrap">
+        <h2 class="title">Featured <span>Work</span></h2>
+        <div class="grid" id="featured"></div>
+        <div class="center" style="margin-top:38px">
+          <a href="portfolio.html" class="btn btn-cream">See Full Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPLORE -->
+    <section class="section light">
+      <div class="wrap">
+        <h2 class="title">Explore <span>More</span></h2>
+        <div class="tiles">
+          <a href="about.html" class="tile reveal"><i class="fa-solid fa-user-astronaut"></i><h3>About Me</h3><p>My story, goals and promo ads.</p></a>
+          <a href="skills.html" class="tile reveal"><i class="fa-solid fa-code"></i><h3>Skills</h3><p>Graphic design, programming languages and databases.</p></a>
+          <a href="portfolio.html" class="tile reveal"><i class="fa-solid fa-images"></i><h3>Portfolio</h3><p>All my output activities in Graphics.</p></a>
+          <a href="contact.html" class="tile reveal"><i class="fa-solid fa-paper-plane"></i><h3>Contact</h3><p>Let's connect and work together.</p></a>
+        </div>
+</div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
