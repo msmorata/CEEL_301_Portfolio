@@ -4,8 +4,8 @@
 The personal web portfolio of **Mark Clear Morata**, a third-year BS Computer Science student (3CS4) at **City College of Calamba**.
 It's my Final Project for Graphics: a multi-page static website showing my graphic design outputs, skills, certificate and contact details. The design follows my **"Starry Sky"** moodboard from the Prelim.
 
-🔗 **Live site:** https://msmorata.github.io
-🐙 **GitHub:** https://github.com/msmorata
+🔗 **Live site:** https://msmorata.github.io/CEEL_301_Portfolio/
+🐙 **GitHub:** https://github.com/msmorata/CEEL_301_Portfolio
 
 ---
 
